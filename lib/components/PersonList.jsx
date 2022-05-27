@@ -2,7 +2,6 @@ import React, { memo } from "react";
 import Person from "@/components/Person";
 
 const PersonList = memo((props) => {
-  console.log('person list');
   return (
     <>
       {props.people.map((person, index) => (
